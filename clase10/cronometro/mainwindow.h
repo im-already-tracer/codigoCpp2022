@@ -23,6 +23,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
     bool start = false;
-    QTimer * timer;
+    QTimer * timer = new QTimer(this);
 };
 #endif // MAINWINDOW_H
